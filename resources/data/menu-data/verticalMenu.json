@@ -1,0 +1,37 @@
+{
+  "menu": [
+    {
+      "url": "home",
+      "name": "Dashboard",
+      "icon": "home",
+      "slug": "Dashboard"
+    },
+    {
+        "name": "Reverse Osmosis",
+        "icon": "mail",
+        "slug": "",
+        "badge": "3",
+        "badgeClass": "badge rounded-pill badge-light-danger ms-auto me-1",
+        "submenu": [
+          {
+            "url": "layouts/collapsed-menu",
+            "name": "KU3",
+            "icon": "circle",
+            "slug": "collapsed-menu"
+          },
+          {
+            "url": "layouts/full",
+            "name": "CWS MEXICO",
+            "icon": "circle",
+            "slug": "layout-full"
+          },
+          {
+            "url": "layouts/full",
+            "name": "CWS USA",
+            "icon": "circle",
+            "slug": "layout-full"
+          }
+        ]
+      }
+  ]
+}
